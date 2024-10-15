@@ -1,0 +1,320 @@
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+.container1 h3:hover {
+    color: purple;
+    text-decoration: underline;
+} 
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0vh;
+    background-image: url(./images/travelimg8.avif);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titlename {
+    text-align: center;
+    color: aliceblue;
+    font-size: 100px;
+    margin-bottom: 0%;
+}
+
+#titletag {
+    margin-top: 0%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+#tagname {
+    text-align: center;
+    margin-top: 75px;
+    font-size: 5dvi;
+}
+.container3 {
+    height: 250vh;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: 3fr 3fr 3fr 3fr;
+}
+
+#smimg {
+    height: 200px;
+    width: 350px;
+    border: 10px solid whitesmoke;
+}
+
+#smimg:hover {
+    border: 10px solid peachpuff;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.container5 {
+    
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
+
+.container5 p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container6 a {
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 750px){
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 15vh;
+        width: 100%;
+    }
+    
+    .container1 h1 {
+        font-size: 20px;
+    }
+
+    .container1 h3 {
+        font-size: 15px;
+    }
+    .container1 h3:hover {
+        color: purple;
+        text-decoration: underline;
+    } 
+    
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0vh;
+        background-image: url(./images/travelimg8.avif);
+        height: 120vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #titlename {
+        text-align: center;
+        color: aliceblue;
+        font-size: 100px;
+        margin-bottom: 0%;
+    }
+    
+    #titletag {
+        margin-top: 0%;
+        text-align: center;
+        color: aliceblue;
+        font-size: 40px;
+    }
+    
+    #tagname {
+        text-align: center;
+        margin-top: 75px;
+        font-size: 5dvi;
+    }
+    .container3 {
+        height: 420vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #smimg {
+        height: 200px;
+        width: 350px;
+        border: 10px solid whitesmoke;
+    }
+    
+    #smimg:hover {
+        border: 10px solid peachpuff;
+    }
+    
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container4 p {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .container5 {
+        width: 100%;
+        margin-top: 50px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    
+    .container6 {
+        display: flex;
+        flex-direction: row;
+        gap: 30px
+    }
+    
+    .container5 p {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .container6 a {
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 570px){
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 15vh;
+        width: 100%;
+    }
+    
+    .container1 h3 {
+        font-size: 12px;
+    }
+
+    .container1 h1 {
+        font-size: 15px;
+    }
+
+    .container1 h3:hover {
+        color: purple;
+        text-decoration: underline;
+    } 
+    
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0vh;
+        background-image: url(./images/travelimg8.avif);
+        height: 120vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #titlename {
+        text-align: center;
+        color: aliceblue;
+        font-size: 100px;
+        margin-bottom: 0%;
+    }
+    
+    #titletag {
+        margin-top: 0%;
+        text-align: center;
+        color: aliceblue;
+        font-size: 40px;
+    }
+    
+    #tagname {
+        text-align: center;
+        margin-top: 75px;
+        font-size: 5dvi;
+    }
+    .container3 {
+        height: 420vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #smimg {
+        height: 200px;
+        width: 350px;
+        border: 10px solid whitesmoke;
+    }
+    
+    #smimg:hover {
+        border: 10px solid peachpuff;
+    }
+    
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container4 p {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .container5 {
+        width: 100%;
+        margin-top: 50px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    
+    .container6 {
+        display: flex;
+        flex-direction: row;
+        gap: 30px
+    }
+    
+    .container5 p {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .container6 a {
+        color: white;
+        font-size: 20px;
+    }
+}
